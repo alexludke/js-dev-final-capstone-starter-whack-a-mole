@@ -54,7 +54,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url("/assets/green-lightsaber.png"), crosshair;
+  cursor: url("../assets/green-lightsaber.PNG"), crosshair;
 }
 
 .hole {
@@ -65,7 +65,7 @@ h2 {
 
 .hole:after {
   display: block;
-  background: url("/assets/boulder.png") bottom center no-repeat;
+  background: url("../assets/boulder.PNG") bottom center no-repeat;
   /* background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat; */
   background-size: contain;
   content: "";
@@ -78,7 +78,7 @@ h2 {
 }
 
 .mole {
-  background: url("/assets/darth-maul2.png") bottom center no-repeat;
+  background: url("../assets/darth-maul2.PNG") bottom center no-repeat;
   /* background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat; */
   background-size: 50%;
   position: absolute;
