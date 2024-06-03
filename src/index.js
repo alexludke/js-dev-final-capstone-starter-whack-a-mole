@@ -288,7 +288,7 @@ function startGame() {
 
 startButton.addEventListener("click", startGame);
 
-const audio = new Audio("../assets/lightsaber-sound.MP3");
+const audio = new Audio("./assets/lightsaber-sound.MP3");
 document.addEventListener("click", () => {
   audio.play();
 });
