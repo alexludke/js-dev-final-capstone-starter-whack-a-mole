@@ -9,7 +9,7 @@ let time = 10;
 let timer;
 let lastHole = 0;
 let points = 0;
-let difficulty = "normal";
+let difficulty = "hard";
 
 /**
  * Generates a random integer within a range.
@@ -278,6 +278,7 @@ function stopGame() {
  *
  */
 function startGame() {
+  clearScore();
   setDuration(10);
   showUp();
   setEventListeners();
