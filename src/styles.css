@@ -1,13 +1,13 @@
 html {
-  background: url('/assets/star-wars-desert.jpg') no-repeat center center fixed;
+  background: url("/assets/star-wars-desert.jpg") no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index:0;
+  z-index: 0;
   overflow: hidden;
-  cursor: crosshair
+  cursor: crosshair;
 }
 
 h1 {
@@ -30,16 +30,16 @@ h2 {
 
 #start {
   display: block;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Audiowide", sans-serif;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Audiowide", sans-serif;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
 }
 
-#timer{
-    color: black;
+#timer {
+  color: black;
 }
 
 .container {
@@ -54,7 +54,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url('/assets/green-lightsaber.png'), crosshair;
+  cursor: url("/assets/green-lightsaber.png"), crosshair;
 }
 
 .hole {
@@ -67,18 +67,18 @@ h2 {
   display: block;
   background: url("/assets/boulder.png") bottom center no-repeat;
   /* background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat; */
-  background-size:contain;
-  content:'';
+  background-size: contain;
+  content: "";
   width: 80%;
   height: 80%;
   position: absolute;
   bottom: -40%;
   z-index: 2;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .mole {
-  background:url('/assets/darth-maul2.png') bottom center no-repeat;
+  background: url("/assets/darth-maul2.png") bottom center no-repeat;
   /* background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat; */
   background-size: 50%;
   position: absolute;
@@ -87,7 +87,7 @@ h2 {
   height: 100%;
   transition: transform 0.5s;
   transition: all 1s;
-  pointer-events:auto;
+  pointer-events: auto;
 }
 
 .hole.show .mole {

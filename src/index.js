@@ -9,7 +9,7 @@ let time = 10;
 let timer;
 let lastHole = 0;
 let points = 0;
-let difficulty = "hard";
+let difficulty = "normal";
 
 /**
  * Generates a random integer within a range.
@@ -287,6 +287,11 @@ function startGame() {
 }
 
 startButton.addEventListener("click", startGame);
+
+const audio = new Audio("/assets/lightsaber-sound.mp3");
+document.addEventListener("click", () => {
+  audio.play();
+});
 
 // Please do not modify the code below.
 // Used for testing purposes.
